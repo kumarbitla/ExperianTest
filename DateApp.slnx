@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DateApp.csproj" />
+  <Project Path="DateApp.Tests/DateApp.Tests.csproj" />
+</Solution>
