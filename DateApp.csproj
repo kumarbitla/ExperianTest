@@ -17,6 +17,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="DateApp.Tests\DateCalculatorServiceTests.cs" />
+    <Compile Include="DateApp.Tests\DateCalculatorTests.cs" />
+    <Compile Include="DateApp.Tests\DateParserTests.cs" />
+    <Compile Include="DateApp.Tests\SimpleDateTests.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="DateApp.Tests\DateApp.Tests.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="xunit.assert" Version="2.5.3" />
     <PackageReference Include="xunit.extensibility.core" Version="2.5.3" />
   </ItemGroup>
